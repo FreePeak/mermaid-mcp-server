@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import MermaidValidator from './mermaid-validator-flexible.js';
+import MermaidValidator from '../src/validators/mermaid-validator-flexible.js';
 
 /**
  * Test suite for Mermaid MCP Server

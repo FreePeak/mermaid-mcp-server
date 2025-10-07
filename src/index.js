@@ -8,7 +8,7 @@ import {
   ListToolsRequestSchema,
   McpError,
 } from '@modelcontextprotocol/sdk/types.js';
-import MermaidValidator from './mermaid-validator-flexible.js';
+import MermaidValidator from './validators/mermaid-validator-flexible.js';
 
 /**
  * Lightweight Mermaid MCP Server

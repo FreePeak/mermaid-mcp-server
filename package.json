@@ -2,11 +2,20 @@
   "name": "mermaid-mcp-server",
   "version": "1.0.0",
   "description": "Lightweight MCP server for real-time Mermaid diagram syntax validation",
-  "main": "server.js",
+  "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "mermaid-mcp-server": "bin/mermaid-mcp-server.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md"
+  ],
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node tests/test.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.4.0",
